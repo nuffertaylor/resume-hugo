@@ -31,6 +31,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
+  company = "Eltropy"
+
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
@@ -70,16 +72,16 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [menu]
 
   [[menu.main]]
-    name = "Career"
-    url = "career/"
-    weight = 10
-
-  [[menu.main]]
     name = "Projects"
     url = "projects/"
     weight = 10
 
   [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about/"
     weight = 20
