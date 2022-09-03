@@ -36,6 +36,20 @@ I also needed to collect the dimensions of the book, but that came fairly easily
 
 Okay! Now we have all the images and data we need, we can write the program to put them on the shelf for us.
 
+First we need our inch to pixel ratio. We get that by dividing the shelf's width in pixels by the shelf's width in inches. 
+```inchPixelRatio = shelfWidthPixels / shelfWidthInches```
+To get inches into pixels, we multiply any amount of pixels by that ratio.
+
+The only dimension we really care about on the book is the width of the spine. Since there's no consistent order or labeling to the dimensions as provided on Amazon, I had to figure out a way to figure out which is the width. Generally, the height of the book will be the longest dimension, the length of the book will be the middlest dimension, and spine-width will be the shortest dimension. If you think this out logically, that should be the case 99% of the time, so I went with it. We take the dimensions string, say "3 x 1 x 2", split it into an array of numbers, and find the smallest one. 
+
+If the dimensions we provide are incorrect for some reason, the images will look stretched/shrunk, distorted, aka not good. This is hard to know without seeing the results, and sometimes I had to manually adjust the dimensions till the spine looked right.
+
+We know how wide in pixels each book will be, and we know how many pixels we have per shelf. So we just keep placing scaled book images on top of our bookshelf until the next book spine width is greater than the remaining number of pixels on the shelf. At this point, we move down to the next shelf.
+
+I also added a provision in case you have more books than can fit on the bookshelf provided: if it's overfilled, a new bookshelf is created and stitched to the right of the existing shelf. Theoretically it could extend on forever, but it's versatile enough to handle anyone's annual reading list.
+
+Okay, lets see it in action:
+
 Let's instantiate a new bookshelf object:
 
 ```
@@ -64,4 +78,4 @@ bookshelf.saveShelf("exampleShelf.png")
 Viola! My results:
 {{<figure src="https://i.redd.it/2wvq9iqpqth81.png" class="center">}}
 
-I also added a provision in case you have more books than can fit on the shelves: if it's overfilled, a new bookshelf is created and stitched to the right of the existing shelf. Theoretically it could extend on forever, but it's versatile enough to handle anyone's annual reading list.
+Looks good enough for me.
