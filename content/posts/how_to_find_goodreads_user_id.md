@@ -11,10 +11,8 @@ You can see my goodreads profile URL is [https://www.goodreads.com/user/show/119
 
 If you're on mobile, the same URL can be found relatively easily. Navigate to your profile page in the app. Then click the "share" icon.
 
-{{<figure src="https://i.imgur.com/kCnq4jZ.jpg" class="center">}}
-
 Then just click "Copy", and your profile URL will be copied to the clipboard.
 
-{{<figure src="https://i.imgur.com/m9VS0Kc.jpg" class="center">}}
+{{<figure src="https://i.imgur.com/bE1GJiN.jpg" class="center">}}
 
 The bookshelf website is generally smart enough to parse out your Goodreads ID if you just paste your profile URL in, but it's guaranteed to work if you paste in your numeric ID.
