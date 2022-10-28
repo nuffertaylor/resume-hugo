@@ -7,7 +7,7 @@ Every Goodreads user has a numeric User ID. You can find this by going to your (
 
 {{<figure src="https://i.imgur.com/UI9CyEY.png" class="center">}}
 
-You can see my goodreads profile URL is [https://www.goodreads.com/user/show/119763485-jonas]. Therefore, my User ID would be 119763485. The bookshelf website needs this ID to pull shelf information from your account.
+You can see my goodreads profile URL is <https://www.goodreads.com/user/show/119763485-jonas>. Therefore, my User ID would be 119763485. The bookshelf website needs this ID to pull shelf information from your account.
 
 If you're on mobile, the same URL can be found relatively easily. Navigate to your profile page in the app. Then click the "share" icon.
 
@@ -17,4 +17,4 @@ Then just click "Copy", and your profile URL will be copied to the clipboard.
 
 The bookshelf website is generally smart enough to parse out your Goodreads ID if you just paste your profile URL in, but it's guaranteed to work if you paste in your numeric ID.
 
-Fun fact, the first Goodreads user, found at [https://www.goodreads.com/user/show/1], is Otis Chandler, the creator of Goodreads. Makes sense.
+Fun fact, the first Goodreads user, found at <https://www.goodreads.com/user/show/1>, is Otis Chandler, the creator of Goodreads. Makes sense.
