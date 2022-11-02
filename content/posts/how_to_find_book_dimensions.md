@@ -1,6 +1,6 @@
 +++
 title="How to Find Book Dimensions"
-date = "2022-10-11"
+date = "2022-10-16"
 +++
 
 Regrettably, I haven't found a foolproof way to source physical dimensions of a book yet. The most consistent place I've found is Amazon.
