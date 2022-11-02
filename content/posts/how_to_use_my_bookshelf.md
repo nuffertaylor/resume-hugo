@@ -1,6 +1,6 @@
 +++
 title="How to Use My Bookshelf"
-date = "2022-11-1"
+date = "2022-11-01"
 +++
 
 To use the [My Bookshelf site](https://bookshelf-lime.vercel.app), you'll need to have a Goodreads account. If you don't have on yet, [you can register for one here.](https://www.goodreads.com/user/sign_up)
