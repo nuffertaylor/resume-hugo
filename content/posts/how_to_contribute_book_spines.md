@@ -1,5 +1,5 @@
 +++
-title="How to Use My Bookshelf"
+title="How to Contribute Book Spines"
 date = "2022-11-03"
 +++
 
