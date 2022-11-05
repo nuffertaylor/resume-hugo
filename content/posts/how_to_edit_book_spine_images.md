@@ -24,6 +24,6 @@ Unfortunately, getting spine images we can actually use requires a little bit of
 11. From here, type in any name for your image (usually I name it the title of the book), and change the file extension to be .jpg. Doing this will ensure the file is compressed to a reasonable size when used on the site. You can also do png, but it might be too big (the my bookshelf site accepts a max filesize of 5mb). You have to do jpg/png though, the site will reject other file types, like HEIC. Once you've done this, click export.
 {{<figure src="https://i.imgur.com/OGnZuON.png" class="center">}}
 12. Another menu will pop up, and here you can adjust some of the metadata or quality of the image. Normally you can just leave it at the default "90," but if you're struggling to make your image file size small enough, you can set that number to be smaller. Click "Export" again, and we're done!
-{{<figure src="https://i.imgur.com/QxnPF1q.png" class="center">}}
+{{<figure src="https://i.imgur.com/QxnPF1q.png" class="center" width="300px">}}
 13. You now have a spine image ready to upload to MyBookshelf!
-{{<figure src="https://i.imgur.com/ngys0Ib.jpg" class="center">}}
+{{<figure src="https://i.imgur.com/ngys0Ib.jpg" class="center" width="50px">}}
