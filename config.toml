@@ -16,6 +16,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 [author]
   name = "Taylor Nuffer"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [blackfriday]
   # hrefTargetBlank = true
   # noreferrerLinks = true
